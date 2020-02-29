@@ -40,3 +40,14 @@ def retrieve_last_element_from_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
   array.last
 end
+
+
+sqlite3 monkeys_database.db
+.header on
+CREATE TABLE monkeys(
+id INTEGER PRIMARY KEY,
+Name TEXT,
+Age Integer
+Species TEXT,
+Gender TEXT
+);
